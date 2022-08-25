@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mukta", sans-serif;
+}
+
+.loginmenu {
+  background: no-repeat url(./pexels-helena-lopes-1796698.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+}
+
+#form {
+  width: 15%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(1px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 24px;
+  padding: 5rem 9rem;
+  display: flex;
+  /* justify-content: center; */
+  gap: 20px;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+}
+#mail,
+#password {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  outline-color: rgb(6, 6, 51);
+  border-radius: 15px;
+  border-color: rgb(0, 0, 0);
+}
+#mail::placeholder {
+  color: rgba(0, 0, 0, 0.693);
+  font-size: 14px;
+}
+#password::placeholder {
+  color: rgba(0, 0, 0, 0.693);
+  font-size: 14px;
+}
+#sbmtbtn {
+  padding: 8px 40px;
+  margin-left: 20px;
+  border-radius: 20px;
+  /* background: none; */
+  cursor: pointer;
+  /* color: rgb(0, 0, 0); */
+  background-image: linear-gradient(rgb(255, 0, 0), yellow);
+  font-size: 17px;
+  border-color: white;
+}
+#sbmtbtn:hover {
+  background-image: linear-gradient(yellow, red);
+
+  color: rgb(24, 24, 24);
+}
+.formmenu {
+  padding-top: 10rem;
+  text-align: center;
+}
+#load {
+  display: none;
+}
+
+#wronginfo {
+  font-size: 16px;
+  width: 100%;
+  display: none;
+}
+.stinfo {
+  display: none;
+}
+table {
+  margin: 0 auto;
+  border: 1.5px solid black;
+  border-collapse: collapse;
+}
+table td {
+  border: 1.5px solid black;
+  padding: 6px;
+  padding-inline: 40px;
+}
+table th {
+  border: 1.5px solid black;
+  padding: 7px;
+}
+
+#sttable {
+  width: fit-content;
+  background: linear-gradient(
+    135deg,
+    rgba(230, 230, 230, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  margin: 0 auto;
+}
+#load {
+  font-size: 30px;
+}
+#notdrink {
+  color: rgb(252, 19, 19);
+
+  width: fit-content;
+  margin: 0 auto;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+  );
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 10px;
+  padding-inline: 10px;
+  background-image: linear-gradient(blue, red, green);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+#jointext {
+  background-image: linear-gradient(blue, red, green);
+  width: fit-content;
+  margin: 0 auto;
+  padding-inline: 20px;
+  border-radius: 10px;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#loading {
+  color: darkred;
+}

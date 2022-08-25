@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./promise.js" defer></script>
+    <title>Promises</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="loginmenu">
+        <div class="formmenu">
+          <h1 id="jointext">Join Us</h1>
+          <form id="form">
+            <h3 id="load">Logging...</h3>
+            <h3 id="wronginfo">
+              Password or Email was wrong!!! please try again
+            </h3>
+            <div>
+              <input placeholder="Write email here" id="mail" type="email" />
+            </div>
+            <div>
+              <input
+                placeholder="Password"
+                id="password"
+                type="current-password"
+              />
+            </div>
+            <div><button id="sbmtbtn" type="submit">Login</button></div>
+          </form>
+          <h1 id="loading">Loading...</h1>
+          <h1 id="notdrink">You Are little for drinking</h1>
+          <div id="sttable" class="stinfo">
+            <table>
+              <tbody id="table-body"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
